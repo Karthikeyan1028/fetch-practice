@@ -14,7 +14,7 @@ function foo(data1) {
     for(var i=0;i<data1.length;i++) {
         var col= document.createElement("div");
         col.className= "col-lg-4"
-        col.innerHTML=` <div class="card border-primary mb-3" style="max-width:18rem; ">
+        col.innerHTML=` <div class="card h-100 mb-3" style="max-width:18rem;  ">
                                       
                                           <div class="card-header">${data1[i].name.common}</div>
                                           <img src="${data1[i].flags?.png}" class="card-img-top">
